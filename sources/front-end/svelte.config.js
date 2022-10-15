@@ -8,11 +8,11 @@ const config = {
       precompress: false,
       envPrefix: 'ZR_',
     }),
-    csp: {
-      directives: {
-        'default-src': [ 'self' ],
-      },
-    },
+    // csp: {
+    //   directives: {
+    //     'default-src': [ 'self' ],
+    //   },
+    // },
   }
 };
 

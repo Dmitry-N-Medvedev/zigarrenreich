@@ -1,0 +1,40 @@
+@import "./node_modules/inter-ui/inter.css";
+
+@font-face {
+  font-family: "InterVarExperimental  ";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: oblique 0deg 10deg;
+  src: url("Inter.var.woff2?v=3.19") format("woff2");
+}
+
+:root {
+  --main-font-family: InterVarExperimental;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html {
+  font-family: var(--main-font-family);
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: var(--main-font-family);
+  }
+}
+
+body {
+/* letter-spacing: 0.1em; */
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-variation-settings: "wght" 400, "slnt" 0;
+  /* letter-spacing: -0.022em; */
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "case" 0, "cpsp" 0, "dlig" 0, "frac" 0, "dnom" 0, "numr" 0, "salt" 0, "subs" 0, "sups" 0, "tnum", "zero", "ss01", "ss02" 0, "ss03" 0, "ss04" 0, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, "cv07", "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "calt", "ccmp", "kern";
+}
