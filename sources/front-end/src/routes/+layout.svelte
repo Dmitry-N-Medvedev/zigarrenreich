@@ -1,9 +1,11 @@
+<script>
+  import Header from '$lib/controls/Header/index.svelte';
+</script>
+
+<Header />
 <main>
-  <header>
-    <nav>nav</nav>
-  </header>
   <article>
     <slot />
   </article>
-  <footer>footer</footer>
 </main>
+<footer>footer</footer>

@@ -1,15 +1,13 @@
 @import "./node_modules/inter-ui/inter.css";
 
-@font-face {
-  font-family: "InterVarExperimental  ";
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: oblique 0deg 10deg;
-  src: url("Inter.var.woff2?v=3.19") format("woff2");
-}
-
 :root {
-  --main-font-family: InterVarExperimental;
+  --main-font-family: "Inter var experimental";
+  --main-color: black;
+  --main-background-color: white;
+
+  --header-height: 8vh;
+  --header-background-color: var(--main-background-color);
+  --header-nav-aspect-ratio: 4 / 3;
 }
 
 * {
@@ -35,6 +33,16 @@ html {
 
 body {
 /* letter-spacing: 0.1em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+
+  width: 100vw;
+  height: 100vh;
+
+  color: var(--main-color);
+
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 400;
