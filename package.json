@@ -1,0 +1,22 @@
+{
+  "name": "@dmitry-n-medvedev/zigarrenreich",
+  "version": "0.0.0",
+  "description": "Zigarrenreich",
+  "type": "module",
+  "engines": {
+    "node": "18.11.0",
+    "pnpm": "7.13.4"
+  },
+  "volta": {
+    "node": "18.11.0"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitry-N-Medvedev/zigarrenreich.git"
+  },
+  "author": "Dmitry N. Medvedev <dmitry.medvedev@gmail.com>",
+  "license": "MIT"
+}
