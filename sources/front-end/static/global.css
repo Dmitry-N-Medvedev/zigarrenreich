@@ -13,9 +13,14 @@
 }
 
 * {
+  box-sizing: border-box;
+  contain: content;
   margin: 0;
-  padding: 0;
   overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+  position: relative;
+  user-select: none;
 }
 
 html {
